@@ -1,0 +1,13 @@
+{
+    "name": "regionhalland/region-halland-nav-site",
+    "description": "Front-end-plugin som returnerar en parent-child-array för hela webbplatsen",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roland Hydén",
+            "email": "Roland.Hyden@Regionhalland.se"
+        }
+    ],
+    "require": {}
+}
