@@ -6,7 +6,7 @@
 	/*
 	Plugin Name: Region Halland Nav Site
 	Description: Front-end-plugin som returnerar en parent-child-array för hela webbplatsen
-	Version: 1.0.0
+	Version: 1.0.1
 	Author: Roland Hydén
 	License: MIT
 	Text Domain: regionhalland
@@ -57,7 +57,6 @@
                 $children = buildRegionHallandSiteTree($posts, $post->ID, $currentID);
                 if ($children) {
                     $post->children = $children;
-	            	$myPost->children = $children;
                 }
                 $branch[$post->ID] = $post;
                 unset($post);
